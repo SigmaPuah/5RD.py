@@ -4,16 +4,14 @@
 # author:
 # project: 5RD
 
-import random
-from copyreg import constructor
-
-from CodeTests import bridgeChoice
+import random, time
 
 #from gzip import write32u
 
 #time.sleep(2)
 #os.system(clear)
 bridgeChoice=True
+dabloons = 0
 playerStrength = 0
 playerDexterity = 0
 playerConstitution = 0
@@ -217,3 +215,16 @@ elif playerAncestry == "5":
         playerCharisma += 1
     playerSpeed = 10
     playerHealth = 20
+dabloonLoop = True
+while dabloon == True
+    dabloon = input("As you walk you notice a subtle rustling in the bushes to your left. What will you do? [C]heck? Or [I]gnore: ")
+    if dabloon == "C":
+        print("Check. Great choice. In fact the best choice! You find a dabloon! You may need this in furture comings.")
+        dabloons+=1
+    elif dabloon == "I":
+        print("Ignore? Okay, if you insist.")
+    else:
+        print("Please type 'C' or 'I'.")
+        dabloonLoop == False
+print("You are walking, and walking, and waking. Then all of a suddon, find a bridge")
+bridge1choice=input("What will you do?")
